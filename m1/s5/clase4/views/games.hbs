@@ -1,0 +1,26 @@
+{{> header title="Pagina de Juegos"}}
+
+<h1> {{ title }}</h1>
+
+{{#if status}}
+    <p>Arreglo {{games}}</p>
+    {{#each games }}
+        <p>{{this}}</p>
+    {{/each}}
+{{else}}
+    <p>No existe estado</p>
+{{/if}}
+
+<hr>
+
+{{#if status}}
+    <p>Arreglo {{listGames}}</p>
+    {{#each listGames }}
+        <p>{{this.name}}</p>
+        <p>{{this.genero}}</p>
+    {{/each}}
+{{else}}
+    <p>No existe estado</p>
+{{/if}}
+
+{{> footer year="2024"}}

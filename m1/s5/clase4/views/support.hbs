@@ -1,0 +1,11 @@
+{{> header title="Pagina de soporte"}}
+
+<h1> {{ title }}</h1>
+
+{{#if status}}
+    <p>{{support}}</p>
+{{else}}
+    <p>No existe estado</p>
+{{/if}}
+
+{{> footer year="2024"}}
