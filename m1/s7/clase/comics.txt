@@ -1,0 +1,14 @@
+{
+  "12dee2edf322-2df231e1wdqd-123sda2331255": {
+    "titulo": "Hombre Araña",
+    "autor": "Stan Lee",
+    "issn": "123456",
+    "cantidad": 340
+  },
+  "12dee2edf422-2df241e7whhqd-1dddkkhj36255": {
+    "titulo": "Capitan America",
+    "autor": "Stan Lee",
+    "issn": "4455677",
+    "cantidad": 240
+  }
+}
